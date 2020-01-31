@@ -113,7 +113,7 @@ def ani_run(data):
         interval=update_interval,
         save_count=50
     )
-    ani_.save('spread.gif',writer='imagemagick')
+    # ani_.save('spread.gif',writer='imagemagick')
     plt.show()
 
 
@@ -221,7 +221,6 @@ if __name__ == "__main__":
         set_max_len(v_dict)
 
     format_state_change_dict(GVAR_ChanceStateChange_vsTime)
-    print("rr",GVAR_ChanceStateChange_vsTime)
 
 
 
